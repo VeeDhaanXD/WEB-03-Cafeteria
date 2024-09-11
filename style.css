@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+
+body{
+    background-image: url(px\ bg\ 2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.xd{
+    width: 100%;
+    height: 100vh;
+    padding: 25px 70px;
+    
+}
+
+nav{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+nav .logo{
+    font-size: 50px;
+    cursor: pointer;
+    margin: 2px;
+    color: red;
+    transition: 1ms ;
+}
+
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+#cfe{
+    max-width: 110px;
+    height: 110px;
+    align-items: right;
+    
+    justify-content: right;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    from{transform: translateX(90%)}   
+}
+
+.bar{
+    height: 500px;
+    width: 1px;
+    translate: 1000px 1px;
+    font-size: 35px;
+    padding: 25px;
+   margin-right: 10px;
+   outline: 3px solid #d6a3fb;
+   background-color: rgb(195, 254, 254);
+   color: rgb(0, 0, 0);
+   background-color:#abf62d;
+   border-radius: 5px;
+   
+}
+
+
+#bgr{
+    max-width: 110px;
+    height: 110px;
+    align-items: right;
+    justify-content: right;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+@keyframes slideLeft {
+    from{transform: translateX(90%)}   
+}
+
+
+#pza{
+    max-width: 110px;
+    height: 110px;
+    align-items: right;
+    
+    justify-content: right;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+@keyframes slideLeft {
+    from{transform: translateX(90%)}   
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    
+    transition: 0.1s ease;
+     box-shadow: 0 0 25px solid blue;
+    
+}
+
+nav h1:hover,
+nav h1.active{
+    transition: 0.1s ease;
+    border-bottom: 3px solid rgb(165, 47, 47);
+    
+}
+
+nav ul li a {
+    border: 3px solid #d6a3fb;
+    border-radius: 10px;
+    background-color:#abf62d;
+}
+
+nav ul li a:hover{
+    transform: scale3d(1.03);
+    background-color: #abf62d;
+    color: #ffffff;
+    box-shadow: 0 0 25px #d6a3fb;   
+}
+.bar:hover{
+    transform: scale3d(1.03);
+    background-color: #abf62d;
+    color: #ffffff;
+    box-shadow: 0 0 25px #d6a3fb; 
+    cursor: pointer;  
+}
+
+
+.side{
+    max-width: 700px;
+    width: 700px;
+    height: 500px;
+    translate: -1030px -420px;
+    border-radius: 20px;
+
+}
